@@ -92,6 +92,10 @@ Note that c should not be a single numeric RGB or RGBA sequence because that is 
 
 ### 3. Final Summary
 Summarise my findings on the project. Is there any interesting findings? Did I come across someone else's analysis that was interesting? If so, say a little something about it and reference it. Make sure to include why this small data set is popular to analyze.
+python -m pip install -U pip
+python -m pip install -U matplotlib
+pip install pandas
+
 
 
 ## References and resources:
