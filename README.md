@@ -1,4 +1,7 @@
-# Pan-Project-2020
+### Pan-Project-2020 " THE IRIS FLOWER DATA SET "
+#### Programming & Scripting - Higher Diploma in Data Analytics - Galway Mayo I.T.
+#### PROJECT REPORT - Submitted by:Thierno Diallo - Student ID: G00265250
+ 
 # The Project Objective (Problem Statement)
 This project concerns the well-known Fisher’s Iris data set [3]. You must research the data set and write documentation and code (in Python [1] to investigate it. An online search for information on the data set will convince you that many people have investigated it previously. You are expected to be able to break this project into several smaller tasks that are easier to solve, and to plug these together after they have been completed. You might do that for this project as follows:
 1. Research the data set online and write a summary about it in your README.
@@ -106,6 +109,9 @@ A normalization is a callable that takes any number as input and outputs another
 Note that c should not be a single numeric RGB or RGBA sequence because that is indistinguishable from an array of values to be colormapped. If you want to specify the same RGB or RGBA value for all points, use a 2-D array with a single row. Otherwise, value- matching will have precedence in case of a size matching with x and y [11]
 
 ### 3. Final Summary
+Before starting my projet, i had not experience in python programming, It took me sometime to figure out, to get my head around, how and where to start, or finding some concepts and approaches.
+
+
 Summarise my findings on the project. Is there any interesting findings? Did I come across someone else's analysis that was interesting? If so, say a little something about it and reference it. Make sure to include why this small data set is popular to analyze.
 python -m pip install -U pip
 python -m pip install -U matplotlib
