@@ -110,8 +110,11 @@ Note that c should not be a single numeric RGB or RGBA sequence because that is 
 
 ### 3. Final Summary
 Before starting my projet, i had not experience in python programming, It took me sometime to figure out, to get my head around, how and where to start, or finding some concepts and approaches.
+
 To Duplicate the results
+
 Run Requirements.txt
+
 using pip install -r requirements.txt
 
 then enter below command
