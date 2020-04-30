@@ -110,14 +110,12 @@ Note that c should not be a single numeric RGB or RGBA sequence because that is 
 
 ### 3. Final Summary
 Before starting my projet, i had not experience in python programming, It took me sometime to figure out, to get my head around, how and where to start, or finding some concepts and approaches.
+To Duplicate the results
+Run Requirements.txt
+using pip install -r requirements.txt
 
-
-Summarise my findings on the project. Is there any interesting findings? Did I come across someone else's analysis that was interesting? If so, say a little something about it and reference it. Make sure to include why this small data set is popular to analyze.
-python -m pip install -U pip
-python -m pip install -U matplotlib
-pip install pandas
-
-
+then enter below command
+python analysis.py
 
 ## References and resources:
 ##### [1]. How to Perform Exploratory Data Analysis with Seaborn
