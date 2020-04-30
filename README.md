@@ -74,29 +74,12 @@ You control what to upload/access (you can change/revoke access anytime on a fil
 Everything in one place (no need to rely upon or manage another file hosting service)
 Freedom to rename/relocate module files (not path-based and won't break your/other's notebook code)
 
-
-
-
-# Load the Pandas libraries with alias 'pd' 
-import pandas as pd 
-# Load the Pandas libraries with alias 'pd' 
-import pandas as pd 
-# Read data from file 'filename.csv' 
-# (in the same directory that your python process is based)
-# Control delimiters, rows, column names with read_csv (see later) 
-data = pd.read_csv("filename.csv") 
-# Preview the first 5 lines of the loaded data 
-data.head(
-# Preview the first 5 lines of the loaded data 
-data.head()
-
 #### Python | Pandas Series.describe()	
 The describe() function is used to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN value [7]
 
 #### What Is a Histogram? 
 A histogram is a graphical representation that organizes a group of data points into user-specified ranges. It is similar in appearance to a bar graph. The histogram condenses a data series into an easily interpreted visual by taking many data points and grouping them into logical ranges or bins. [8]
 Creating Histograms using Pandas
-
 
 #### SCATTER PLOT
 Scatter Plots (also called scatter diagrams) are used to investigate the possible relationship between two variables that both relate to the same "event." A straight line of best fit (using the least squares method) is often included. [9]
