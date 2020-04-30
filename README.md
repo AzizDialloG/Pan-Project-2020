@@ -126,12 +126,10 @@ pip install pandas
 ##### [4]. Introduction to pyplot
 ###### https://matplotlib.org/tutorials/introductory/pyplot.html
 ###### https://matplotlib.org/api/pyplot_api.html
-##### [5]. Python Pandas read_csv 
-##### Load Data from CSV Files
+##### [5]. Python Pandas read_csv| Load Data from CSV Files
 ###### https://www.shanelynn.ie/python-pandas-read_csv-load-data-from-csv-files/
 ###### https://www.datacamp.com/community/tutorials/pandas-read-csv
 ##### How to Import CSV Files to Google Colab Notebooks
-###### [How to Import CSV Files to Google's Colab Notebooks]
 ###### .https://www.youtube.com/watch?v=SHYAQHDQoU4
 ##### [6] Introduction Google Colab - Google Colab Executing External Python Files 
 ###### http://www.msrblog.com/google_colab/google_colab_quick_guide.htm
