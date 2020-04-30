@@ -19,17 +19,17 @@ My plan for the project is broken down into three areas:
 #### _Plotting for exploratory data analysis EDA
 Exploratory Data Analysis (EDA) is an approach to analyzing datasets to summarize their main characteristics. It is used to understand data, get some context regarding it, understand the variables and the relationships between them, and formulate hypotheses that could be useful when building predictive models. [1]
 
-#### _What is EDA?
+#### What is EDA?
 EDA is a task of analyzing a data using simple tools, from statistics, from plotting tools, from linear algebra, and other techniques.
 #### What is Iris data set?
 The Flower iris is used by R.A fisher in his research paper in 1936, to use for the multiple classification problem. Dataset is also available on Kaggele and UCI. [2]
 
 The major purpose of this project is to show some graphs i.e. data visualization like histograms and scatter plots. Where Histograms are similar to bar charts shows counts of data in bins and scatter plots show relationship between two data points, one can use third variable for the radius of circle of plot as well.
 
-#### _Understanding the IRIS data set:
+#### Understanding the IRIS data set:
 The total count of data is 150 rows, 50 rows for each class.
 
-_There are four features consists on these columns.
+There are four features consists on these columns.
 	 
 	 SepalLength
 	 SepalWidth
@@ -37,12 +37,12 @@ _There are four features consists on these columns.
 	 PetalWidth
 	 Species
 
-#### _Those 4 Features are also called as:
+#### Those 4 Features are also called as:
 Variable/Input-variable/Independent-variable 
 And labels (here species) are also called as
  Dependent-variable/out-variable/class/class-label/Response label.
 The class variable is "Species". It has 3 number of classes.
-#### _Classes are below:
+#### Classes are below:
 	Iris-setosa
 	Iris-versicolor
 	Iris-virginica
@@ -51,18 +51,18 @@ The class variable is "Species". It has 3 number of classes.
 Download the data set and write some code to do the chosen analysis (ie. max, min, mean etc).
 and adding comments to my codes, make it simple and easy to understand.
 
-#### _Libraries that are mandatory for this analysis:
+#### Libraries that are mandatory for this analysis:
 
-_Python | os.listdir() method
+Python | os.listdir() method
 os.listdir() method in python is used to get the list of all files and directories in the specified directory. If we don’t specify any directory, then list of files and directories in the current working directory will be returned. [3]
 
-_Python | matplotlib. pyplot as plt
+Python | matplotlib. pyplot as plt
 pyplot is matplotlib's plotting framework. That specific import line merely imports the module "matplotlib.pyplot" and binds that to the name "plt [4]
 
-_Pandas is the most popular data manipulation package in Python, and DataFrames are the Pandas data type for storing tabular 2D data.[5]
+Pandas is the most popular data manipulation package in Python, and DataFrames are the Pandas data type for storing tabular 2D data.[5]
 CSV (comma-separated value) files are a common file format for transferring and storing data. The ability to read, manipulate, and write data to and from CSV files using Python is a key skill to master for any data scientist or business analysis.[5]
 
-_How to run python files in Google Colab.
+How to run python files in Google Colab.
 Google is quite aggressive in AI research. Over many years, Google developed AI framework called TensorFlow and a development tool called Colaboratory. [6]
 You can upload local files to google colab by using upload() function in google.colab.files.
 Easy and safe (no need for code to handle file operation exceptions and/or additional authorization)
@@ -87,20 +87,20 @@ data.head(
 # Preview the first 5 lines of the loaded data 
 data.head()
 
-#### _Python | Pandas Series.describe()	
+#### Python | Pandas Series.describe()	
 The describe() function is used to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN value [7]
 
-#### _What Is a Histogram? 
+#### What Is a Histogram? 
 A histogram is a graphical representation that organizes a group of data points into user-specified ranges. It is similar in appearance to a bar graph. The histogram condenses a data series into an easily interpreted visual by taking many data points and grouping them into logical ranges or bins. [8]
-_Creating Histograms using Pandas
+Creating Histograms using Pandas
 
 
-#### _SCATTER PLOT
+#### SCATTER PLOT
 Scatter Plots (also called scatter diagrams) are used to investigate the possible relationship between two variables that both relate to the same "event." A straight line of best fit (using the least squares method) is often included. [9]
 
-#### _How to Save a Plot to a File Using Matplotlib
+#### How to Save a Plot to a File Using Matplotlib
 The .savefig() method requires a filename be specified as the first argument. This filename can be a full path and as seen above, can also include a particular file extension if desired. If no extension is provided, the configuration value of savefig.format is used instead. [10]
-#### _How does parameters 'c' and 'cmap' behave in a matplotlib scatter plot?
+#### How does parameters 'c' and 'cmap' behave in a matplotlib scatter plot?
 A colormap is a callable that takes float values between 0. and 1. as input and returns a RGB color.
 A normalization is a callable that takes any number as input and outputs another number, based on some previously set limits. The usual case of Normalize would provide a linear mapping of values between vmin and vmax to the range between 0. and 1
 Note that c should not be a single numeric RGB or RGBA sequence because that is indistinguishable from an array of values to be colormapped. If you want to specify the same RGB or RGBA value for all points, use a 2-D array with a single row. Otherwise, value- matching will have precedence in case of a size matching with x and y [11]
@@ -126,7 +126,8 @@ pip install pandas
 ##### [4]. Introduction to pyplot
 ###### https://matplotlib.org/tutorials/introductory/pyplot.html
 ###### https://matplotlib.org/api/pyplot_api.html
-##### [5]. Python Pandas read_csv – Load Data from CSV Files
+##### [5]. Python Pandas read_csv 
+##### Load Data from CSV Files
 ###### https://www.shanelynn.ie/python-pandas-read_csv-load-data-from-csv-files/
 ###### https://www.datacamp.com/community/tutorials/pandas-read-csv
 ##### How to Import CSV Files to Google Colab Notebooks
